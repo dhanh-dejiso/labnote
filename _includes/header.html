@@ -1,5 +1,5 @@
 <header class="site-header">
-  <img src="/assets/img/2403pdbmom.jpg" alt="2403pdbmom">
+  <img src="{{ "/assets/img/2403pdbmom.jpg" | prepend: site.baseurl }}" alt="2403pdbmom">
   <a href="http://pdb101.rcsb.org/motm">2024 March Molecule of the Month</a>
   <img src="/assets/img/grandmenu.png" alt="grand menu">
   <a href="https://torikizoku.co.jp/assets/uploads/2024/03/menu_ja_2403.pdf">Torikizoku Grand Menu</a>  
@@ -14,7 +14,7 @@
         <li>
           <a href="#">
             <i class='bx bx-grid-alt' ></i>
-            <span class="link_name">Dashboard</span>
+            <span class="link_name">About</span>
           </a>
           <ul class="sub-menu blank">
             <li><a class="link_name" href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
