@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Home killme
+title: Dao's den
 ---
 
 <div class="home">
   <div class="post-list">
 
     {% for post in site.posts limit:5%}
-
     <article class="post_card post">
       <header class="post_header">
         <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
@@ -25,7 +24,7 @@ title: Home killme
       </div>
       <footer class="post_meta">
 
-
+      
         {% if post.location %}
         <span class="author-location">
           <div data-icon="ei-location"></div>

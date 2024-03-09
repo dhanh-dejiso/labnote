@@ -4,8 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+Hi all,
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+I'm Hoang-Anh Dao, a Vietnamese current residing in Japan (a proud Kyotoite but had moved to Mie for work T-T). I'm an inspired crystallographer-wanna-be but was continously humiliated and harassed by my supervisor so I dropped PhD, started working part-time at [Torikizoku (鳥貴族)][Torikizoku (鳥貴族)] before landing a job in a small pharmaceutical company. I think that is why I'm still finding ways to regain my confidence, having my identity crisis unresolved and love life wrecked. Fortunately, I always have the supports I didn't deserve from my friends to work my way to get back things that I deserved. So yay me!
 
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+I make this blog (?) to save stuffs that I've been learning recently (also to serve as an archive of things that I often have to look up). I hope these posts would be helpful to anyone who pursuing structural biology, crystallography, or just need some light readings on how I'm doing. Hope that help :3
+
+This site is power by [Jekyll][jekyll-page]. Jekyll offers powerful support for code snippets:
+
+{% highlight java %}
+public class Test { 
+  public static void main(String args[]) { 
+      System.out.println("Good luck you all <3"); 
+  } 
+} 
+{% endhighlight %}
+
+Love you all <3
+
+[Torikizoku (鳥貴族)]: https://torikizoku.co.jp/

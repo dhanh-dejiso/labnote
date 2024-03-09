@@ -1,47 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date: 2019-06-19 21:06:26 +0800
+title:  "Welcome to Dao's new site!!"
+date: 2024-03-09 20:38:26 +0900
 categories: jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hi all,
 
-Jekyll also offers powerful support for code snippets:
+I'm Hoang-Anh Dao, a Vietnamese current residing in Japan (a proud Kyotoite but had moved to Mie for work T-T). I'm an inspired crystallographer-wanna-be but was continously humiliated and harassed by my supervisor so I dropped PhD, started working part-time at [Torikizoku (鳥貴族)][Torikizoku (鳥貴族)] before landing a job in a small pharmaceutical company. I think that is why I'm still finding ways to regain my confidence, having my identity crisis unresolved and love life wrecked. Fortunately, I always have the supports I didn't deserve from my friends to work my way to get back things that I deserved. So yay me!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+I make this blog (?) to save stuffs that I've been learning recently (also to serve as an archive of things that I often have to look up). I hope these posts would be helpful to anyone who pursuing structural biology, crystallography, or just need some light readings on how I'm doing. Hope that help :3
+
+This site is power by [Jekyll][jekyll-page]. Jekyll offers powerful support for code snippets:
+
+{% highlight java %}
+public class Test { 
+  public static void main(String args[]) { 
+      System.out.println("Good luck you all <3"); 
+  } 
+} 
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Love you all <3
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[Torikizoku (鳥貴族)]: https://torikizoku.co.jp/
 
-<!--description-->
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
