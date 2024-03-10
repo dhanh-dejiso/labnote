@@ -2,6 +2,7 @@
 layout: tagpage
 title: About
 permalink: /about
+category: about
 ---
 
 Hi all,
