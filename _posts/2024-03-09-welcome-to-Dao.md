@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Dao's new site!!"
 date: 2024-03-09 20:38:26 +0900
-categories: jekyll
+category: thoughts
 ---
 
 Hi all,
