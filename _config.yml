@@ -11,9 +11,9 @@ email: dhavirus@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I kinda dropped out a PhD program in KyotoU, worked my way hard to land a job in a small local pharmaceutical compamy, and currently trying to figure things out. 
 
-url: "https://dhanh-dejiso.github.io/labnote" # the base hostname & protocol for your site
-twitter_username: dhanh-dejiso
-github_username:  dhanh-dejiso
+url: "https://dhanhdjs.github.io/labnote" # the base hostname & protocol for your site
+twitter_username: dhanhdjs
+github_username:  dhanhdjs
 
 # Build settings
 markdown: kramdown
