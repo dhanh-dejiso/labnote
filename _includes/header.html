@@ -11,110 +11,126 @@
         <span class="logo_name">dhanhNote</span>
       </div>
       <ul class="nav-links">
+        <!-- ABOUT BUTTON-->
         <li>
-          <a href="#">
-            <i class='bx bx-grid-alt' ></i>
+          <a href="{{ "/about" | prepend: site.baseurl }}">
+            <i class='bx bxs-user-circle' ></i>
             <span class="link_name">About</span>
           </a>
           <ul class="sub-menu blank">
             <li><a class="link_name" href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
           </ul>
         </li>
+
+        <!-- HOME BUTTON -->
+        <li>
+          <a href="{{ "/" | prepend: site.baseurl }}">
+            <i class='bx bxs-home' ></i>
+            <span class="link_name">Home</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+          </ul>
+        </li>
+
+        <!-- Quantum Chemistry BUTTON -->
         <li>
           <div class="iocn-link">
             <a href="#">
-              <i class='bx bx-collection' ></i>
-              <span class="link_name">Category</span>
+              <i class='bx bx-atom' ></i>
+              <span class="link_name"><em>ab_initio</em></span>
             </a>
             <i class='bx bxs-chevron-down arrow' ></i>
           </div>
           <ul class="sub-menu">
-            <li><a class="link_name" href="#">Category</a></li>
-            <li><a href="#">HTML & CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-            <li><a href="#">PHP & MySQL</a></li>
+            <li><a class="link_name" href="#"><em>ab_initio</em></a></li>
+            <li><a href="#">Benchmarking</a></li>
+            <li><a href="#">GAMESS</a></li>
+            <li><a href="#">Psi4</a></li>
+            <li><a href="#">FMO</a></li>
           </ul>
         </li>
+
+        <!-- Crystallography BUTTON -->
         <li>
           <div class="iocn-link">
             <a href="#">
-              <i class='bx bx-book-alt' ></i>
-              <span class="link_name">Posts</span>
+              <i class='bx bx-dna' ></i>
+              <span class="link_name">Xtal</span>
             </a>
             <i class='bx bxs-chevron-down arrow' ></i>
           </div>
           <ul class="sub-menu">
-            <li><a class="link_name" href="#">Posts</a></li>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Login Form</a></li>
-            <li><a href="#">Card Design</a></li>
+            <li><a class="link_name" href="#">Xtal</a></li>
+            <li><a href="#">Principles</a></li>
+            <li><a href="#">Experimental</a></li>
+            <li><a href="#">Techniques</a></li>
+            <li><a href="#">Pymol related</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#">
-            <i class='bx bx-pie-chart-alt-2' ></i>
-            <span class="link_name">Analytics</span>
-          </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Analytics</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">
-            <i class='bx bx-line-chart' ></i>
-            <span class="link_name">Chart</span>
-          </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Chart</a></li>
-          </ul>
-        </li>
+
+        <!-- Drug Discovery BUTTON -->
         <li>
           <div class="iocn-link">
             <a href="#">
-              <i class='bx bx-plug' ></i>
-              <span class="link_name">Plugins</span>
+              <i class='bx bxs-capsule' ></i>
+              <span class="link_name">Diseases</span>
             </a>
             <i class='bx bxs-chevron-down arrow' ></i>
           </div>
           <ul class="sub-menu">
-            <li><a class="link_name" href="#">Plugins</a></li>
-            <li><a href="#">UI Face</a></li>
-            <li><a href="#">Pigments</a></li>
-            <li><a href="#">Box Icons</a></li>
+            <li><a class="link_name" href="#">Diseases</a></li>
+            <li><a href="#">SBDD</a></li>
+            <li><a href="#">Toxicology</a></li>
+            <li><a href="#">Physiology</a></li>
+            <li><a href="#">Dis. physiology</a></li>
           </ul>
         </li>
+
+
+        <!-- AI BUTTON -->
         <li>
-          <a href="#">
-            <i class='bx bx-compass' ></i>
-            <span class="link_name">Explore</span>
-          </a>
-          <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Explore</a></li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class='bx bx-glasses-alt' ></i>
+              <span class="link_name">ML_AI</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">ML_AI</a></li>
+            <li><a href="#">Principles</a></li>
+            <li><a href="#">Generative Models</a></li>
+            <li><a href="#">Code examples</a></li>
           </ul>
         </li>
+
+        <!-- Linux BUTTON -->
         <li>
           <a href="#">
-            <i class='bx bx-history'></i>
-            <span class="link_name">History</span>
+            <i class='bx bx-code-alt' ></i>
+            <span class="link_name">Linux</span>
           </a>
           <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">History</a></li>
+            <li><a class="link_name" href="#">Linux</a></li>
           </ul>
         </li>
+
+        <!-- Blog BUTTON -->
         <li>
           <a href="#">
-            <i class='bx bx-cog' ></i>
-            <span class="link_name">Setting</span>
+            <i class='bx bxs-message-rounded-error' ></i>
+            <span class="link_name">Thoughts</span>
           </a>
           <ul class="sub-menu blank">
-            <li><a class="link_name" href="#">Setting</a></li>
+            <li><a class="link_name" href="#">Thoughts</a></li>
           </ul>
         </li>
       </ul>
     </div>
     
 
-    <script>
+  <script>
     let arrow = document.querySelectorAll(".arrow");
     for (var i = 0; i < arrow.length; i++) {
       arrow[i].addEventListener("click", (e)=>{
@@ -128,5 +144,5 @@
     sidebarBtn.addEventListener("click", ()=>{
       sidebar.classList.toggle("close");
     });
-    </script>
+  </script>
 </header>
