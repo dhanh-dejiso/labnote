@@ -1,0 +1,29 @@
+---
+title: Machine Learning & AI
+layout: tagpage
+category: mlai
+---
+
+<div>
+
+  <h2>{{ page.title }}</h2>
+
+  <section class="archive_list">
+
+    {% for post in site.categories[page.category] %}
+
+    <div class="post_title">
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+      <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
+    </div>
+
+    {% endfor %}
+
+  </section>
+
+  <footer class="article-footer" mar>
+    {% include author.html %}
+  </footer>
+</div>
+
+

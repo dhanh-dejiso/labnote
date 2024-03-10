@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: tagpage
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 Hi all,
