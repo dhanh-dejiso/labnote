@@ -24,5 +24,10 @@ public class Test {
 
 Love you all <3
 
+
+  <footer class="article-footer" mar>
+    {% include author.html %}
+  </footer>
 [Torikizoku (鳥貴族)]: https://torikizoku.co.jp/
 [jekyll-page]: https://jekyllrb.com/
+
