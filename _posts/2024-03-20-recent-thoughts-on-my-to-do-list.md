@@ -15,6 +15,9 @@ However bad that might seem, I guess it's best to start to reevaluate my priorit
 
 So to summarize everything up, here is the list:
 
-
+- Math reading
+- Hardcover making/Leathering
+- Generative models
+- Driver License
 
 
